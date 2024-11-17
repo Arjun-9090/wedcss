@@ -1,106 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
+  <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="descritpion" content="bskd no.1 bsdk0"> 
-    <title>metal</title>
-</head>
-<body>
-    <img src="assets/wallpapersden.com_sci-fi-astronaut-4k-dark_1920x1080.jpg" alt="mern flow" height="300px">
-    <!-- this is heading tag -->
-   <!-- hello is block tag /element -->
-    <h1>Hello</h1>
-    <strong><a href="contact.html">Contact us</a></strong><br>
-    <strong><a href="https://www.mindrisers.com.np/" target="_blank">mindreses</a></strong>
-    <h6>bskd</h6>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aut aspernatur provident velit. Repellat quam unde dicta deserunt! Delectus commodi asperiores necessitatibus cum iste obcaecati, expedita consectetur omnis ad odio!</p>
- <!-- strong and em are in line -->
-    <strong> sell &scnE;</strong><br>
-<em>Italica jee</em><br>
-<h3>h<sub>2</sub>o</h3><br>
-<h4>h<sup>2</sup>o</h4><br>
-<h5>My favourite color</h5>
-<ol type="I">
-    <li>red</li>
-    <li>blue</li>
-    <li>sky blue</li>
-</ol>
+    <title>Web Css</title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
 
-<h5>My favourite color</h5>
-<ul>
-    <li>red</li>
-    <li>blue</li>
-    <li>sky blue</li>
-</ul>
- <h3>Some list</h3>
- <table border="1px" cellspacing="0" cellpadding="1">
-    <tr>
-        <td>Activity</td>
-        <td>Time</td>
-    </tr>
-    <tr>
-        <td>Breakfast</td>
-        <td>morning</td>
-    </tr>
-    <tr>
-        <td>lunch</td>
-        <td>Day</td>
-    </tr>
-    <tr>
-        <td>Dinner</td>
-        <td>Night</td>
-    </tr>
- </table>
- <br>
- <table border="1px" cellspacing="0" cellpadding="1">
-        
-    <tr>
-            <th>SN.</th>
-            <th>Particular</th>
-            <th>Quantity</th>
-            <th>Amount</th>
-            <th></th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>computer</td>
-            <td>20</td> 
-            <td>1000000</td>
-            <td>1000</td>       
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Mouse</td>
-            <td>20</td>  
-            <td>50000</td>      
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Keyboard</td>
-            <td>20</td> 
-            <td>200000</td>       
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>Speaker</td>
-            <td>20</td>
-            <td>150000</td>        
-        </tr>
-        <tfoot>
-            <tr>
-                <td></td>
-                <td>Total</td>
-                <td>80</td>
-                <td>1400000</td>
-            </tr>
-        </tfoot>
-    </thead>
-</table>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&display=swap');
+      img[alt='a'] {
+        width: 100px;
+      }
+
+      input[type='text']:focus {
+        border: 1px solid red;
+        outline: none;
+      }
+     
+      h1::before{
+        content: 'RDj';
+        color: blue;
+        font-size: 20px;
+      }
+       #d{
+        color: bisque;
+        font-size: 50px;
+       }
+       p::after{
+        content: 'Again';
+        color: brown;
+        font-size: 30px;
+       }
+       
+       p{
+        text-align: center;
+        line-height: 20px;
+        word-spacing: 10px;
+        text-decoration:  line-through 1px black ;
+        text-underline-offset: 1px;
+        font-size: 1rem;
+
+       }
+       h1{
+        text-align: center;
+        line-height: 20px;
+        word-spacing: 10px;
+        text-decoration:  line-through 1px black ;
+        font-size: 3em;
+    }
+       .bx{
+        font-size: 30px;
+       }
+       p{
+        font-family:"Roboto", sans-serif; ;
+       }
+       p{
+        font-family: "Poppins", sans-serif;
+       }
+    </style>
+
+
+
+  </head>
+
+  <body>
+
+<p>Lorem ipsum dolor sit, amet consectetur <span id="d">Why are you  seeing this</span> adipisicing elit. Temporibus nobis asperiores quo. Error quia corporis dolorum possimus, porro numquam sint cumque, sit sed magnam voluptatum a unde animi! Est, dicta.</p>
+    <input type="text"><br><br>
+    <input type="email">
+    <br>
+    <br>
+
+    <img
+      src="https://images.unsplash.com/photo-1731512883997-bbd3d801e1a9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0fHx8ZW58MHx8fHx8"
+      alt="a">
+
+    <img
+      src="https://images.unsplash.com/photo-1731262785082-3f1d23b75379?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8"
+      alt="b"><br>
+
+
+
+<button type="submit">click</button>
 
 
 
 
 
-</body>
+  </body>
+
 </html>
